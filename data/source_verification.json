@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "mode": "PRIVATE_ORIGINALS_PANDAS_JSON_PASS",
+  "checks": 7992809,
+  "source_records": 420672,
+  "scope": "Complete selected CSV/JSON multisets and public row bindings when private originals supplied;not historical issuance or meter validation"
+}
