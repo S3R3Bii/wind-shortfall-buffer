@@ -1,0 +1,440 @@
+{
+  "source": "Elia Transmission Belgium SA,ods031",
+  "source_url": "https://opendata.elia.be/explore/dataset/ods031/information/",
+  "license": "CC BY 4.0,Elia Open Data License",
+  "license_url": "https://opendata.elia.be/pages/licence/",
+  "changes": "Minimal selected fields,source row binding;no omission or imputation;derived hourly/policy results separately labeled",
+  "endorsement": false,
+  "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca",
+  "files": {
+    "records.csv.gz": "fa884138ac6841ed2ec3459660001d315ea6d14c2277750069bda9ba9824b818"
+  },
+  "source_records": 420672,
+  "selected_fields": [
+    "datetime",
+    "resolutioncode",
+    "offshoreonshore",
+    "region",
+    "gridconnectiontype",
+    "measured",
+    "dayaheadforecast",
+    "monitoredcapacity",
+    "decrementalbidid"
+  ],
+  "rows_by_source": {
+    "2018-Flanders.csv": 35040,
+    "2018-Wallonia.csv": 35040,
+    "2019-Flanders.csv": 35040,
+    "2019-Wallonia.csv": 35040,
+    "2020-Flanders.csv": 35136,
+    "2020-Wallonia.csv": 35136,
+    "2021-Flanders.csv": 35040,
+    "2021-Wallonia.csv": 35040,
+    "2022-Flanders.csv": 35040,
+    "2022-Wallonia.csv": 35040,
+    "2023-Flanders.csv": 35040,
+    "2023-Wallonia.csv": 35040
+  },
+  "requests": [
+    {
+      "file": "metadata-before.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031",
+      "start_utc": "2026-10-30T17:05:09.534369+00:00",
+      "end_utc": "2026-10-30T17:05:10.018488+00:00",
+      "status": 200,
+      "bytes": 21812,
+      "sha256": "9ed19984b7112078d1c27dbd0efec2a59fb8878548636ecfd091e5faacbe653f",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2018-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272018-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272019-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:10.019488+00:00",
+      "end_utc": "2026-10-30T17:05:17.376492+00:00",
+      "status": 200,
+      "bytes": 2684358,
+      "sha256": "2ae8b961990e95a992ba0707e93c24b3741e96b9124e391686b726f86efcfcfc",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2018-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272018-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272019-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:17.577906+00:00",
+      "end_utc": "2026-10-30T17:05:25.346426+00:00",
+      "status": 200,
+      "bytes": 8816228,
+      "sha256": "a606f5ef14b375eed46e15428dd74501c0eb35b51653fbc85697fea62094a544",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2018-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272018-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272019-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:25.550702+00:00",
+      "end_utc": "2026-10-30T17:05:31.563010+00:00",
+      "status": 200,
+      "bytes": 2678599,
+      "sha256": "553e04a097fe40de7232822e8f88a6588c15bf291cff33eb87cbc335337a09f2",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2018-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272018-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272019-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:31.765604+00:00",
+      "end_utc": "2026-10-30T17:05:39.016490+00:00",
+      "status": 200,
+      "bytes": 8810469,
+      "sha256": "49e7b87ecc60b49ccd1492eb1b905d2a7a39e786e6360875dac54305df769769",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2019-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272019-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272020-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:39.221489+00:00",
+      "end_utc": "2026-10-30T17:05:46.826916+00:00",
+      "status": 200,
+      "bytes": 2719677,
+      "sha256": "756d1f0fdc6539d2f1754e71a22429deeebf8009f4f9654a5a816a9555d5ea41",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2019-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272019-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272020-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:47.029547+00:00",
+      "end_utc": "2026-10-30T17:05:53.377657+00:00",
+      "status": 200,
+      "bytes": 8851547,
+      "sha256": "6de85ecd48c402d6602c7d131cf93e219bf32e26ad6d7abb0e30b498ee1048aa",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2019-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272019-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272020-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:53.582737+00:00",
+      "end_utc": "2026-10-30T17:05:59.183818+00:00",
+      "status": 200,
+      "bytes": 2690030,
+      "sha256": "1881b77198ddf99d21a05a8a8d918b942b1bf6f7190f9fc7e1895c03ee286285",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2019-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272019-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272020-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:05:59.386057+00:00",
+      "end_utc": "2026-10-30T17:06:09.028096+00:00",
+      "status": 200,
+      "bytes": 8821900,
+      "sha256": "eb7333814031bb0642ac2286f49cee8e2d12bba803ffc5144b02eca84c5c4703",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2020-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272020-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272021-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:09.232173+00:00",
+      "end_utc": "2026-10-30T17:06:16.422341+00:00",
+      "status": 200,
+      "bytes": 2737521,
+      "sha256": "85e51ea2218cec2a53b9f84df18908d38afa5859e6e727b7e15ae51108bebfd3",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2020-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272020-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272021-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:16.625648+00:00",
+      "end_utc": "2026-10-30T17:06:23.740260+00:00",
+      "status": 200,
+      "bytes": 8886191,
+      "sha256": "ba11205a0d7c234fff59aa9d37c92636a0f0b23fe2e7166e4ecaec69f65ea845",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2020-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272020-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272021-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:23.944822+00:00",
+      "end_utc": "2026-10-30T17:06:29.531714+00:00",
+      "status": 200,
+      "bytes": 2698152,
+      "sha256": "2f94bb6ce7926703ad8da5bc50186a120dfe7a4b01bdf74f78ffce2ed5648243",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2020-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272020-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272021-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:29.733574+00:00",
+      "end_utc": "2026-10-30T17:06:38.338211+00:00",
+      "status": 200,
+      "bytes": 8846822,
+      "sha256": "4cef27c12c62d0825c47ebb50f95d5e53dd98b87f709a59440e6deb693597ce1",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2021-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272021-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272022-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:38.543801+00:00",
+      "end_utc": "2026-10-30T17:06:45.674751+00:00",
+      "status": 200,
+      "bytes": 2713728,
+      "sha256": "c011bd5f04bd640aa2119257f3e8398432e279c37e6b7ec6cf9f8db3acc51259",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2021-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272021-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272022-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:45.875818+00:00",
+      "end_utc": "2026-10-30T17:06:52.966339+00:00",
+      "status": 200,
+      "bytes": 8845662,
+      "sha256": "a4dfdb4a4e425d3a890529ced11ed4bf80bbb0610e156ace18026052ed44e7c2",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2021-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272021-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272022-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:53.172151+00:00",
+      "end_utc": "2026-10-30T17:06:59.588100+00:00",
+      "status": 200,
+      "bytes": 2674423,
+      "sha256": "4e4782bf165735f13f34d0e6e4c4e8d85676f4d76b1f3a1b6f9bbd381e749ef1",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2021-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272021-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272022-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:06:59.790949+00:00",
+      "end_utc": "2026-10-30T17:07:07.147238+00:00",
+      "status": 200,
+      "bytes": 8806357,
+      "sha256": "a5b23766d69e54a76c045b601119d8756511bf95f71b9cff431312811409ca86",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2022-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272022-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272023-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:07.353103+00:00",
+      "end_utc": "2026-10-30T17:07:13.861546+00:00",
+      "status": 200,
+      "bytes": 2703011,
+      "sha256": "79455ba3bd18c678f5a751ca24812177e4c8236f27de9e33d0e6cd4d7c8fde13",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2022-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272022-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272023-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:14.062598+00:00",
+      "end_utc": "2026-10-30T17:07:20.077210+00:00",
+      "status": 200,
+      "bytes": 8834881,
+      "sha256": "6d9b7fac056391fce0d6d2b2221fd2155c986bddb6fdb485a3e37f0ddd4e9e25",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2022-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272022-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272023-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:20.282370+00:00",
+      "end_utc": "2026-10-30T17:07:25.618865+00:00",
+      "status": 200,
+      "bytes": 2680000,
+      "sha256": "a9f557db27b6652bb8eb40730f2e5badc94bd3a0c25936b79382373f9405aa6f",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2022-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272022-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272023-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:25.821262+00:00",
+      "end_utc": "2026-10-30T17:07:35.781423+00:00",
+      "status": 200,
+      "bytes": 8811870,
+      "sha256": "0ff07acbe62d181971345ea3874945934e975018b728c70942eefcca0f08227c",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2023-Flanders.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272023-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272024-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:35.986077+00:00",
+      "end_utc": "2026-10-30T17:07:43.000281+00:00",
+      "status": 200,
+      "bytes": 2711874,
+      "sha256": "dc9f8ee9af3622873cbfdd06442ca4df00d063c75a63ee1e7362353b0b62d939",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2023-Flanders.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Flanders%27+AND+datetime+%3E%3D+date%272023-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272024-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:43.202435+00:00",
+      "end_utc": "2026-10-30T17:07:49.507878+00:00",
+      "status": 200,
+      "bytes": 8844000,
+      "sha256": "b8b503ba90bb9b2e79953730f86b4c48b46859e5a2197cb0736ca213537913db",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2023-Wallonia.csv",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/csv?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272023-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272024-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:49.713660+00:00",
+      "end_utc": "2026-10-30T17:07:55.042908+00:00",
+      "status": 200,
+      "bytes": 2705508,
+      "sha256": "8a21e40ec15efab17ce356b1410c386d84f44fbf55a8109b4e206f903c065298",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "2023-Wallonia.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031/exports/json?select=datetime%2Cresolutioncode%2Coffshoreonshore%2Cregion%2Cgridconnectiontype%2Cmeasured%2Cdayaheadforecast%2Cmonitoredcapacity%2Cdecrementalbidid&where=offshoreonshore%3D%27Onshore%27+AND+gridconnectiontype%3D%27Dso%27+AND+region%3D%27Wallonia%27+AND+datetime+%3E%3D+date%272023-01-01T00%3A00%3A00Z%27+AND+datetime+%3C+date%272024-01-01T00%3A00%3A00Z%27&order_by=datetime%2Cregion%2Cgridconnectiontype%2Coffshoreonshore&timezone=UTC&use_labels=false",
+      "start_utc": "2026-10-30T17:07:55.244936+00:00",
+      "end_utc": "2026-10-30T17:08:03.522549+00:00",
+      "status": 200,
+      "bytes": 8837634,
+      "sha256": "b6305a92f974494f74a2c5d0d4a2100e72dee0a4b98ffe175d1b8a6513193ee9",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    },
+    {
+      "file": "metadata-after.json",
+      "url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods031",
+      "start_utc": "2026-10-30T17:08:03.728247+00:00",
+      "end_utc": "2026-10-30T17:08:04.181244+00:00",
+      "status": 200,
+      "bytes": 21812,
+      "sha256": "9ed19984b7112078d1c27dbd0efec2a59fb8878548636ecfd091e5faacbe653f",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "protocol_commit": "8769aa04b4bda0673bfde89f9845c3b8e99c11ca"
+    }
+  ],
+  "metadata_markers": {
+    "data_processed": "2026-10-30T06:21:28.288000+00:00",
+    "metadata_processed": "2026-10-30T06:30:57.690000+00:00",
+    "records_count": 2073600
+  },
+  "projection_runtime": {
+    "python": "3.10.11",
+    "implementation": "CPython"
+  },
+  "limits": "Current source-labeled day-ahead estimates;not validated metering or original issuance-version receipts. Offshore discrepancy warning in official metadata;offshore excluded. Original responses and source pages private."
+}

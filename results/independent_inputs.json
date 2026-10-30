@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 6099749,
+  "source_records": 420672,
+  "planned_slots": 420672,
+  "planned_hours": 105168,
+  "independence": "Separate SQLite full-calendar joins and80digitDecimal integration;no analysis imports",
+  "limits": "Source completeness and exact selected representations,not original issuance or physical meter validation"
+}

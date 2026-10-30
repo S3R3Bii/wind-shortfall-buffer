@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "stage": "held",
+  "checks": 13586122,
+  "training_labels": 17520,
+  "eligible_hours": 52520,
+  "policy_prediction_rows": 945360,
+  "point_prediction_rows": 157560,
+  "policy_metric_rows": 1728,
+  "point_metric_rows": 96,
+  "independence": "Separate SQL role selection,Decimal signed training inputs,exact-rational actions/losses and all metrics;no analysis imports",
+  "limits": "Finite historical-source and hypothetical-policy checks;not exact issuance,meter truth or reserve reliability"
+}

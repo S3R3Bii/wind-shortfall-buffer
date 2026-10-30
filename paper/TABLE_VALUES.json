@@ -1,0 +1,1970 @@
+[
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2018",
+      "quantity": "planned"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2018",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2018",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2019",
+      "quantity": "planned"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2019",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2019",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2020",
+      "quantity": "planned"
+    },
+    "text": "8784",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2020",
+      "quantity": "eligible"
+    },
+    "text": "8784",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2020",
+      "quantity": "eligible"
+    },
+    "text": "8784",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2021",
+      "quantity": "planned"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2021",
+      "quantity": "eligible"
+    },
+    "text": "8756",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2021",
+      "quantity": "eligible"
+    },
+    "text": "8756",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2022",
+      "quantity": "planned"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2022",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2022",
+      "quantity": "eligible"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2023",
+      "quantity": "planned"
+    },
+    "text": "8760",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Flanders",
+      "year": "2023",
+      "quantity": "eligible"
+    },
+    "text": "8744",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "hours",
+      "region": "Wallonia",
+      "year": "2023",
+      "quantity": "eligible"
+    },
+    "text": "8744",
+    "page": 1,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "zero"
+    },
+    "text": "0.000000",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "zero"
+    },
+    "text": "0.113521",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "mean"
+    },
+    "text": "0.020413",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "mean"
+    },
+    "text": "0.090186",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "median"
+    },
+    "text": "0.014051",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "median"
+    },
+    "text": "0.095042",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "q75"
+    },
+    "text": "0.043197",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "q75"
+    },
+    "text": "0.085166",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "q80"
+    },
+    "text": "0.053545",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "q80"
+    },
+    "text": "0.087691",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "fit",
+      "config": "q90"
+    },
+    "text": "0.085359",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "search",
+      "config": "q90"
+    },
+    "text": "0.104278",
+    "page": 2,
+    "fmt": ".6f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "0.000",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "23.424",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "117.120",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "47.704",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "mean",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "20.115",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "mean",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "14.952",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "mean",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "94.878",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "mean",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "66.542",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "median",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "13.846",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "median",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "17.206",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "median",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "99.874",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "median",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "61.478",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "42.568",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "9.051",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "87.820",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "79.954",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "52.765",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "7.230",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "88.913",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "84.204",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q90",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "84.115",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q90",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "3.746",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q90",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "102.845",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q90",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "92.510",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "0.000",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "20.797",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "103.987",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "43.222",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "mean",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "14.322",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "mean",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "14.057",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "mean",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "84.609",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "mean",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "61.337",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "median",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "9.858",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "median",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "15.892",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "median",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "89.319",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "median",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "56.474",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "30.307",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "9.033",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "75.474",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "75.091",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "37.568",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "7.389",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "74.514",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "79.623",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q90",
+      "metric": "mean_reserve",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "59.889",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q90",
+      "metric": "mean_uncovered",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "4.062",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q90",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "80.199",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q90",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "89.383",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "source",
+      "metric": "mae"
+    },
+    "text": "49.296",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "source",
+      "metric": "rmse"
+    },
+    "text": "71.003",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "source",
+      "metric": "bias"
+    },
+    "text": "-2.448",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "mean_corrected",
+      "metric": "mae"
+    },
+    "text": "51.814",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "mean_corrected",
+      "metric": "rmse"
+    },
+    "text": "74.304",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "mean_corrected",
+      "metric": "bias"
+    },
+    "text": "-21.909",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "median_corrected",
+      "metric": "mae"
+    },
+    "text": "50.414",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "median_corrected",
+      "metric": "rmse"
+    },
+    "text": "72.752",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Flanders",
+      "config": "median_corrected",
+      "metric": "bias"
+    },
+    "text": "-16.003",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "source",
+      "metric": "mae"
+    },
+    "text": "38.026",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "source",
+      "metric": "rmse"
+    },
+    "text": "54.776",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "source",
+      "metric": "bias"
+    },
+    "text": "3.568",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "mean_corrected",
+      "metric": "mae"
+    },
+    "text": "38.497",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "mean_corrected",
+      "metric": "rmse"
+    },
+    "text": "55.629",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "mean_corrected",
+      "metric": "bias"
+    },
+    "text": "-10.382",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "median_corrected",
+      "metric": "mae"
+    },
+    "text": "37.929",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "median_corrected",
+      "metric": "rmse"
+    },
+    "text": "54.997",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "point",
+      "region": "Wallonia",
+      "config": "median_corrected",
+      "metric": "bias"
+    },
+    "text": "-6.144",
+    "page": 3,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "8756",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.1110",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.0806",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.0821",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "8760",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.0863",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.0711",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.0752",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "8744",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1593",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1157",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1134",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "8756",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.1243",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.0896",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2021"
+    },
+    "text": "0.0897",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "8760",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.1236",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.0919",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2022"
+    },
+    "text": "0.0926",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "n",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "8744",
+    "page": 4,
+    "fmt": ".0f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1968",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1413",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q80",
+      "metric": "normalized_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "year",
+      "level": "2023"
+    },
+    "text": "0.1363",
+    "page": 4,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/20",
+      "penalty": 2
+    },
+    "text": "-0.0140",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/20",
+      "penalty": 2
+    },
+    "text": "-0.0097",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/10",
+      "penalty": 2
+    },
+    "text": "-0.0140",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/10",
+      "penalty": 2
+    },
+    "text": "-0.0097",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/5",
+      "penalty": 2
+    },
+    "text": "-0.0140",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/5",
+      "penalty": 2
+    },
+    "text": "-0.0097",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/20",
+      "penalty": 5
+    },
+    "text": "0.0297",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/20",
+      "penalty": 5
+    },
+    "text": "0.0406",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/10",
+      "penalty": 5
+    },
+    "text": "0.0297",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/10",
+      "penalty": 5
+    },
+    "text": "0.0406",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/5",
+      "penalty": 5
+    },
+    "text": "0.0297",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/5",
+      "penalty": 5
+    },
+    "text": "0.0406",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/20",
+      "penalty": 10
+    },
+    "text": "0.1027",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/20",
+      "penalty": 10
+    },
+    "text": "0.1245",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/10",
+      "penalty": 10
+    },
+    "text": "0.1027",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/10",
+      "penalty": 10
+    },
+    "text": "0.1245",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Flanders",
+      "cap": "1/5",
+      "penalty": 10
+    },
+    "text": "0.1027",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "contrast",
+      "region": "Wallonia",
+      "cap": "1/5",
+      "penalty": 10
+    },
+    "text": "0.1245",
+    "page": 5,
+    "fmt": ".4f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "zero",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "117.120",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "87.820",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "zero",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "103.987",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "mean_proxy_cost",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "75.474",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Flanders",
+      "config": "q75",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "79.954",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "policy",
+      "stage": "held",
+      "region": "Wallonia",
+      "config": "q75",
+      "metric": "coverage",
+      "cap": "1/10",
+      "penalty": 5,
+      "group": "overall",
+      "level": "all"
+    },
+    "text": "75.091",
+    "page": 0,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "scale",
+      "region": "Flanders"
+    },
+    "text": "985.430",
+    "page": 2,
+    "fmt": ".3f"
+  },
+  {
+    "query": {
+      "kind": "scale",
+      "region": "Wallonia"
+    },
+    "text": "701.610",
+    "page": 2,
+    "fmt": ".3f"
+  }
+]

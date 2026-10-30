@@ -1,0 +1,351 @@
+{
+  "status": "PASS",
+  "source_rows": 420672,
+  "planned_slots": 420672,
+  "eligible_slots": 420512,
+  "planned_hours": 105168,
+  "eligible_hours": 105128,
+  "slot_reason_counts": {
+    "measured_unavailable_or_nonfinite": 8,
+    "monitoredcapacity_unavailable_or_nonfinite": 152
+  },
+  "by_region_year_quarter": {
+    "Flanders|2018|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Flanders|2018|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2018|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2018|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2019|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Flanders|2019|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2019|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2019|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2020|Q1": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2020|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2020|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2020|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2021|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Flanders|2021|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2021|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2021|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2204,
+      "planned_slots": 8832,
+      "eligible_slots": 8816,
+      "pass_90_percent": true
+    },
+    "Flanders|2022|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Flanders|2022|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Flanders|2022|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2022|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2023|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Flanders|2023|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2168,
+      "planned_slots": 8736,
+      "eligible_slots": 8672,
+      "pass_90_percent": true
+    },
+    "Flanders|2023|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Flanders|2023|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2018|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Wallonia|2018|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2018|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2018|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2019|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Wallonia|2019|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2019|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2019|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2020|Q1": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2020|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2020|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2020|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2021|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Wallonia|2021|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2021|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2021|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2204,
+      "planned_slots": 8832,
+      "eligible_slots": 8816,
+      "pass_90_percent": true
+    },
+    "Wallonia|2022|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Wallonia|2022|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2184,
+      "planned_slots": 8736,
+      "eligible_slots": 8736,
+      "pass_90_percent": true
+    },
+    "Wallonia|2022|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2022|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2023|Q1": {
+      "planned_hours": 2160,
+      "eligible_hours": 2160,
+      "planned_slots": 8640,
+      "eligible_slots": 8640,
+      "pass_90_percent": true
+    },
+    "Wallonia|2023|Q2": {
+      "planned_hours": 2184,
+      "eligible_hours": 2168,
+      "planned_slots": 8736,
+      "eligible_slots": 8672,
+      "pass_90_percent": true
+    },
+    "Wallonia|2023|Q3": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    },
+    "Wallonia|2023|Q4": {
+      "planned_hours": 2208,
+      "eligible_hours": 2208,
+      "planned_slots": 8832,
+      "eligible_slots": 8832,
+      "pass_90_percent": true
+    }
+  },
+  "scope": "Source completeness/sign/alignment checks;not exact issuance access,upscaled-meter validation or reserve reliability"
+}
