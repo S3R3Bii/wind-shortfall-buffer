@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 328,
+  "pages": 7,
+  "numeric_display_values": 146,
+  "manuscript_sha256": "5753bf54f152094db3fc3b6ea5dce2ed0c9adfbecf9bf834391c43ba9d222bf0",
+  "scope": "Training/observation-export recomputation,display text,practical claims,hashes and bounded PDF actions;visual review separate"
+}

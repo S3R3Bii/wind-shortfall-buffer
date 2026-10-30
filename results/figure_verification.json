@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 495,
+  "source_values": 54,
+  "svg_coordinates": 432,
+  "hashes": 9,
+  "scope": "Verified-result values,actual SVG bar coordinates and artifact hashes;scenario costs are not measured savings"
+}
