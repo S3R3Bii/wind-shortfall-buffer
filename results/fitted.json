@@ -1,0 +1,22 @@
+{
+  "training_region": "Flanders",
+  "training_years": [
+    2018,
+    2019
+  ],
+  "training_n": 17520,
+  "scales": {
+    "Flanders": "98543/100",
+    "Wallonia": "70161/100"
+  },
+  "statistics": {
+    "zero": "0/1",
+    "mean": "46989637/2301964480",
+    "median": "11077/788344",
+    "q75": "17027/394172",
+    "q80": "10553/197086",
+    "q90": "16823/197086"
+  },
+  "source": "Earlier eligible Flanders errors only;Wallonia earlier monitored-capacity covariates only,no Wallonia error fitting",
+  "training_key_sha256": "63df08961ddd8d917ff5a73178996cadcf242c041f001d088e6e76495aa87691"
+}
