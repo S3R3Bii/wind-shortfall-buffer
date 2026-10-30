@@ -6,5 +6,5 @@
   "frozen_dependencies": 29,
   "original_files_unchanged": true,
   "network_during_replay": false,
-  "scope": "Full local-clone transformation,independent math and fixtures;raw source re-download not performed"
+  "scope": "Full local-clone transformation into separate outputs,exact CSV-field/JSON equality,independent math and fixtures;frozen containers preserved;raw source re-download not performed"
 }

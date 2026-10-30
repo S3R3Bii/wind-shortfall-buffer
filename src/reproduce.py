@@ -1,4 +1,4 @@
-"""Rebuild in an offline temporary local clone while preserving original exports."""
+"""Replay into separate outputs;preserve frozen bytes and compare exact data fields."""
 
 import csv, gzip, hashlib, json, subprocess, sys, tempfile
 from pathlib import Path
@@ -15,22 +15,17 @@ def main():
         and p.name != "reproduction.json"
         and p.suffix not in [".log", ".aux", ".out", ".xdv"]
     }
+    fields = documents = 0
     with tempfile.TemporaryDirectory(prefix="wind-buffer-replay-") as name:
         target = Path(name) / "study"
+        rebuilt = Path(name) / "rebuilt"
+        rebuilt.mkdir()
         subprocess.run(
             ["git", "clone", "--quiet", "--no-hardlinks", str(ROOT), str(target)],
             check=True,
         )
-        for cmd in [
-            ["src/verify_source.py"],
-            ["src/prepare_inputs.py"],
-            ["src/verify_inputs.py"],
-            ["src/run_analysis.py", "development"],
-            ["src/verify_results.py", "development"],
-            ["src/run_analysis.py", "held"],
-            ["src/verify_results.py", "held"],
-            ["-m", "unittest", "discover", "-s", "tests"],
-        ]:
+
+        def run(*cmd):
             result = subprocess.run(
                 [sys.executable, *cmd], cwd=target, text=True, capture_output=True
             )
@@ -43,52 +38,70 @@ def main():
                     + "\n"
                     + result.stderr[-1500:]
                 )
-        names = [
-            "source_gate.json",
-            "fitted.json",
-            "selection.json",
-            "development_search.json",
-        ]
-        for stage in ["development", "held"]:
-            names += [stage + "_policy_metrics.json", stage + "_point_metrics.json"]
-        for name in names:
-            assert json.loads(
-                (ROOT / "results" / name).read_text(encoding="utf-8")
-            ) == json.loads(
-                (target / "results" / name).read_text(encoding="utf-8")
-            ), name
-        csvfiles = [
-            "source_row_eligibility.csv.gz",
-            "quarter_hour_calendar.csv.gz",
-            "hourly_inputs.csv.gz",
-        ]
-        for stage in ["development", "held"]:
-            csvfiles += [
-                stage + "_policy_predictions.csv.gz",
-                stage + "_point_predictions.csv.gz",
-            ]
-        fields = 0
-        for name in csvfiles:
-            with gzip.open(
-                ROOT / "results" / name, "rt", encoding="utf-8", newline=""
-            ) as left, gzip.open(
-                target / "results" / name, "rt", encoding="utf-8", newline=""
-            ) as right:
-                for a, b in zip(csv.reader(left), csv.reader(right), strict=True):
-                    assert a == b, name
-                    fields += len(a)
-            # Header fields are counted explicitly as compared text;no claim that they are outcomes.
-    for name, digest in originals.items():
-        assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
+
+        def compare(csv_names, json_names):
+            nonlocal fields, documents
+            for item in csv_names:
+                with gzip.open(
+                    ROOT / "results" / item, "rt", encoding="utf-8", newline=""
+                ) as left, gzip.open(
+                    rebuilt / item, "rt", encoding="utf-8", newline=""
+                ) as right:
+                    for x, y in zip(csv.reader(left), csv.reader(right), strict=True):
+                        assert x == y, item
+                        fields += len(x)
+            for item in json_names:
+                assert json.loads(
+                    (ROOT / "results" / item).read_text(encoding="utf-8")
+                ) == json.loads((rebuilt / item).read_text(encoding="utf-8")), item
+                documents += 1
+
+        run("src/verify_source.py")
+        run("src/prepare_inputs.py", "--output-dir", str(rebuilt))
+        compare(
+            [
+                "source_row_eligibility.csv.gz",
+                "quarter_hour_calendar.csv.gz",
+                "hourly_inputs.csv.gz",
+            ],
+            ["source_gate.json"],
+        )
+        run("src/verify_inputs.py")
+        run("src/run_analysis.py", "development", "--output-dir", str(rebuilt))
+        compare(
+            [
+                "development_policy_predictions.csv.gz",
+                "development_point_predictions.csv.gz",
+            ],
+            [
+                "fitted.json",
+                "selection.json",
+                "development_search.json",
+                "development_policy_metrics.json",
+                "development_point_metrics.json",
+            ],
+        )
+        run("src/verify_results.py", "development")
+        # Published inputs and selection are identical to the independently regenerated
+        # fields above. Keep their frozen gzip containers byte-for-byte intact.
+        run("src/run_analysis.py", "held", "--output-dir", str(rebuilt))
+        compare(
+            ["held_policy_predictions.csv.gz", "held_point_predictions.csv.gz"],
+            ["held_policy_metrics.json", "held_point_metrics.json"],
+        )
+        run("src/verify_results.py", "held")
+        run("-m", "unittest", "discover", "-s", "tests")
+    for item, digest in originals.items():
+        assert hashlib.sha256((ROOT / item).read_bytes()).hexdigest() == digest, item
     result = dict(
         status="PASS",
         exact_csv_fields_including_headers=fields,
-        json_documents=len(names),
+        json_documents=documents,
         tests=30,
         frozen_dependencies=29,
         original_files_unchanged=True,
         network_during_replay=False,
-        scope="Full local-clone transformation,independent math and fixtures;raw source re-download not performed",
+        scope="Full local-clone transformation into separate outputs,exact CSV-field/JSON equality,independent math and fixtures;frozen containers preserved;raw source re-download not performed",
     )
     (ROOT / "results/reproduction.json").write_bytes(
         (json.dumps(result, indent=2) + "\n").encode()
